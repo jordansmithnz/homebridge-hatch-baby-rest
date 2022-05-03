@@ -91,7 +91,7 @@ export class HatchBabyRestPlatform implements DynamicPlatformPlugin {
           const accessory = new api.platformAccessory(
             displayName,
             uuid,
-            hap.Categories.LIGHTBULB
+            hap.Categories.SPEAKER
           )
 
           this.log.info(`Adding new Hatch ${device.model} - ${displayName}`)
